@@ -1,0 +1,36 @@
+{
+  "name": "devco-back",
+  "version": "1.0.0",
+  "description": "Sistema de registro de dotación que Devco le entrega a sus empleados",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduerPJ/devco-back.git"
+  },
+  "keywords": [
+    "javascript",
+    "express",
+    "mongoose",
+    "azure",
+    "vercel",
+    "mongodb"
+  ],
+  "author": "Eduer Pallares J. <eduerpj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduerPJ/devco-back/issues"
+  },
+  "homepage": "https://github.com/EduerPJ/devco-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
